@@ -1,0 +1,38 @@
+{"intents": [
+    {"tag": "saludos",
+      "patterns": ["Hola", "¿Hay alguien ahi?", "Buen dia"],
+      "responses": ["¡Hola!", "¡Que bueno verte de nuevo!", "Hola, ¿ccmo puedo ayudar?"],
+      "context_set": ""
+    },
+    {"tag": "masSaludos",
+         "patterns": ["Como estas", "Que tal"],
+         "responses": ["¡Estoy bien !, ¿y tu?", "¿Yo estoy bien, tu?"],
+         "context_set": ""
+    },
+    {"tag": "adios",
+      "patterns": ["Adios", "Hasta luego", "Me voy", "Que tengas un buen dia"],
+      "responses": ["Triste verte partir :(", "Hablamos mas tarde", "¡Adios!"],
+      "context_set": ""
+    },
+    {"tag": "edad",
+      "patterns": ["¿Que edad tienes Luis?", "¿Cual es tu edad?",  "edad?"],
+      "responses": ["¡Tengo 25 años!", "¡Joven de 18 años!"],
+      "context_set": ""
+    },
+    {"tag": "nombre",
+      "patterns": ["¿Como te llamo?", "¿Como te llamas?"],
+      "responses": ["Puedes llamarme Luis", "¡Soy Luis!", "Soy Luis, tambien conocido como Luis Enrique"],
+      "context_set": ""
+    },
+    {"tag": "shop",
+      "patterns": ["Me gustaria comprar algo", "¿Que hay en el menu", "¿Que me recomiendan?", "¿Puedo conseguir algo de comer?"],
+      "responses": ["¡Vendemos galletas con chispas de chocolate por $ 2!", "¡Las galletas están en el menu!"],
+      "context_set": ""
+    },
+    {"tag": "hours",
+      "patterns": ["cuando abren", "cual es su horario", "horario de atencion"],
+      "responses": ["¡Abrimos de 7:00 a. m. a 4:00 p. m. de lunes a viernes"],
+      "context_set": ""
+    }
+  ]
+}
